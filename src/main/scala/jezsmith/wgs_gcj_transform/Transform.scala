@@ -17,7 +17,7 @@ object Transform {
 
     var lat = 20.0 * sin(6.0 * xPi) + 20.0 * sin(2.0 * xPi)
     lat += 20.0 * sin(yPi) + 40.0 * sin(yPi / 3.0)
-    lat += 160.0 * sin(yPi / 12.0) + 320 * sin(yPi / 30.0)
+    lat += 160.0 * sin(yPi / 12.0) + 320.0 * sin(yPi / 30.0)
     lat *= (2.0 / 3.0)
     lat - 100.0 + 2.0 * x + 3.0 * y + 0.2 * y * y + 0.1 * x * y + 0.2 * sqrt(abs(x))
   }
